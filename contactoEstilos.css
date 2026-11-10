@@ -1,0 +1,110 @@
+/* Configuración general */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ecf0d0;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+/* Encabezado */
+header {
+    background-color: #1768ac;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    border-bottom: 5px solid #dce9a8;
+}
+header h1 {
+    color: #f2f5c0;
+    margin: 0 0 15px;
+    font-size: 32px;
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    color: white;
+    font-weight: bold;
+    margin: 0 3px;
+}
+nav a:hover {
+    color: #f2f5c0;
+}
+/* Formulario de contacto */
+.contacto {
+    background-color: #ffffff;
+    width: 700px;
+    max-width: calc(100% - 30px);
+    margin: 40px auto;
+    padding: 30px;
+    border: 1px solid #dce3ec;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.contacto h2 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #263746;
+}
+/* Etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+/* Campos de texto */
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd3dc;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 15px;
+}
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+/* Efecto al seleccionar un campo */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #2374ab;
+    outline-offset: 2px;
+    border-color: #2374ab;
+}
+/* Botones */
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+button {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #19417c;
+    border: none;
+    border-radius: 5px;
+    padding: 11px 22px;
+    font-size: 15px;
+}
+button:hover {
+    background-color: #d8ecb3;
+    color: #19417c;
+}
+/* Pie de página */
+footer {
+    background-color: #102f80;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
